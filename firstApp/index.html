@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hobby tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-content">
+    <h1>Hobby printer</h1>
+
+    <p>This lil tool can help you print a list of your favorite hobbies. And you can add to it as need be, so don't stress about having to have the complete list all at once!</p>
+
+    <form id="create-task-form" action="" method="POST">
+      <label for="Add hobbies"></label>
+      <input type="text" id="new-hobby-description" name="Add hobbies" placeholder="What do you like doing?">
+      <input type="submit" value="Add a hobby">
+    </form>
+
+    <div id="list">
+      <h2>Hobbies</h2>
+      <ul id="tasks">
+      </ul>
+    </div>
+
+    <script src="index.js"></script>
+  </div>
+
+</body>
+</html>
